@@ -1,1 +1,1 @@
-DELETE FROM sterrenstelsel.planeten WHERE naam LIKE 'Teenalp' ESCAPE '#' AND diameter = 6794 AND `Afstand tot de zon` = 227936640 AND `massa t.o.v. de aarde` = 0 AND bezoek_datum IS NULL AND id = 5
+DELETE FROM sterrenstelsel.planeten WHERE id = 5
